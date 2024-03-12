@@ -11,8 +11,8 @@
         }
     ],
     "require": {
-        "hiraeth/app": "^2.0",
-        "hiraeth/gettext": "^1.0",
+        "hiraeth/app": "^3.0",
+        "hiraeth/gettext": "^3.0",
         "twig/extensions": "^1.5"
     },
     "require-dev": {
@@ -24,6 +24,11 @@
             "hiraeth/app": {
                 "config": ""
             }
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "imarc/opus": true
         }
     }
 }
